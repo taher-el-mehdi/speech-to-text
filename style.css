@@ -1,0 +1,137 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Dropdown styling */
+#language-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#language-select:hover {
+    border-color: #888;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
+}
+
+
+/* Textarea styling */
+#text-output {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 20px;
+    resize: vertical;
+    background-color: #f9f9f9;
+}
+
+#text-output:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Status message styling */
+#status {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #language-select {
+        width: 100%;
+    }
+}
+
+
+#record-btn:hover {
+    background-color: #0056b3;
+}
+
+#record-btn:active {
+    background-color: #004080;
+}
+
+#record-btn i {
+    font-size: 18px; /* Adjust icon size */
+}
+
+/* Stop state styling */
+#record-btn.stop {
+    background-color: #dc3545;
+}
+
+#record-btn.stop:hover {
+    background-color: #c82333;
+}
+
+#record-btn.stop:active {
+    background-color: #bd2130;
+}
