@@ -15,7 +15,7 @@ A simple web application that converts spoken words into text using the Web Spee
 ## Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/speech-to-text.git
+   git clone https://github.com/taher-el-mehdi/speech-to-text.git
    ```
 2. Open `index.html` in your browser.
 
